@@ -1,0 +1,244 @@
+
+19/04/25 23:34:10	InstPlugin::read_settings()
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure common: SetupLanguage>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "ENG"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure common: DestinationPath>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "C:\Program Files (x86)\F-Secure"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure common: ProductInformationIni>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "C:\Windows\TEMP\FsSetup\00000001\product.ini"
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: InstallMode>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "1"
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: DaemonServiceDisplayName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure Anti-Virus Firewall Daemon"
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: ProductSectionName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure FWES"
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: Silent>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value ""
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: PreviousVersion>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value ""
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure FWES: ProductVersion>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "10.10"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure FWES: ProductRegKey>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "FWES"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure FWES: TargetDirectory>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "FWES"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure common: ProductSectionName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure Management Agent"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure Management Agent: TargetDirectory>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "Common"
+19/04/25 23:34:10	Delay-loading FS libraries.
+19/04/25 23:34:10	Local::init(): Registering language with fwesinst.ENG, result <0>
+19/04/25 23:34:10	Installation plug-in version 10.10.103 Build 103.
+19/04/25 23:34:10	InstPlugin::verify_conflicts()
+19/04/25 23:34:10	GetRegistryValueString(): error 1 checking registry key <HKEY_LOCAL_MACHINE\SOFTWARE\Data Fellows\F-Secure\Distributed Firewall\\CurrentVersion>
+19/04/25 23:34:10	GetRegistryValueString(): error 1 checking registry key <HKEY_LOCAL_MACHINE\SOFTWARE\Data Fellows\F-Secure\FWES\\CurrentVersion>
+19/04/25 23:34:10	VerifyConflicts(): Saving existing user settings.
+19/04/25 23:34:10	STMIG_GetPolicySettings<LoadCommonLibraries> failed
+19/04/25 23:34:10	VerifyConflicts(): Failed to read user settings. Error -3.
+19/04/25 23:34:10	set_setting(): Writing key <FWESINST.DLL: Silent>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, set value "1"
+19/04/25 23:34:10	VerifyConflicts(): Using inifile C:\Windows\TEMP\FsSetup\00000001\prodsett.ini in silent mode.
+19/04/25 23:34:10	ResourceConflict(): Total physical memory is: 2147483647 bytes
+19/04/25 23:34:10	InstPlugin::show_return_code(): Function PlugInVerifyConflicts() returned value: FSWSSAPI_OK
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: Debug>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "1"
+19/04/25 23:34:10	InstPlugin::read_settings()
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure common: SetupLanguage>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "ENG"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure common: DestinationPath>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "C:\Program Files (x86)\F-Secure"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure common: ProductInformationIni>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "C:\Windows\TEMP\FsSetup\00000001\product.ini"
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: InstallMode>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "1"
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: DaemonServiceDisplayName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure Anti-Virus Firewall Daemon"
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: ProductSectionName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure FWES"
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: Silent>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "1"
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: PreviousVersion>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value ""
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure FWES: ProductVersion>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "10.10"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure FWES: ProductRegKey>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "FWES"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure FWES: TargetDirectory>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "FWES"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure common: ProductSectionName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure Management Agent"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure Management Agent: TargetDirectory>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "Common"
+19/04/25 23:34:10	Delay-loading FS libraries.
+19/04/25 23:34:10	Local::init(): Registering language with fwesinst.ENG, result <0>
+19/04/25 23:34:10	InstPlugin::show_wizard()
+19/04/25 23:34:10	show_wizard(): skipping installation wizard
+19/04/25 23:34:10	InstPlugin::show_return_code(): Function PlugInShowWizard() returned value: FSWSSAPI_OK
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: Debug>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "1"
+19/04/25 23:34:10	InstPlugin::read_settings()
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure common: SetupLanguage>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "ENG"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure common: DestinationPath>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "C:\Program Files (x86)\F-Secure"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure common: ProductInformationIni>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "C:\Windows\TEMP\FsSetup\00000001\product.ini"
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: InstallMode>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "1"
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: DaemonServiceDisplayName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure Anti-Virus Firewall Daemon"
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: ProductSectionName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure FWES"
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: Silent>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "1"
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: PreviousVersion>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value ""
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure FWES: ProductVersion>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "10.10"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure FWES: ProductRegKey>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "FWES"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure FWES: TargetDirectory>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "FWES"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure common: ProductSectionName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure Management Agent"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure Management Agent: TargetDirectory>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "Common"
+19/04/25 23:34:10	Delay-loading FS libraries.
+19/04/25 23:34:10	Local::init(): Registering language with fwesinst.ENG, result <0>
+19/04/25 23:34:10	InstPlugin::initialize()
+19/04/25 23:34:10	InstPlugin::show_return_code(): Function PlugInInitialize() returned value: FSWSSAPI_OK
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: Debug>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "1"
+19/04/25 23:34:10	InstPlugin::read_settings()
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure common: SetupLanguage>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "ENG"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure common: DestinationPath>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "C:\Program Files (x86)\F-Secure"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure common: ProductInformationIni>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "C:\Windows\TEMP\FsSetup\00000001\product.ini"
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: InstallMode>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "1"
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: DaemonServiceDisplayName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure Anti-Virus Firewall Daemon"
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: ProductSectionName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure FWES"
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: Silent>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "1"
+19/04/25 23:34:10	GetSetting(): Reading key <FWESINST.DLL: PreviousVersion>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value ""
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure FWES: ProductVersion>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "10.10"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure FWES: ProductRegKey>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "FWES"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure FWES: TargetDirectory>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "FWES"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure common: ProductSectionName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure Management Agent"
+19/04/25 23:34:10	GetSetting(): Reading key <F-Secure Management Agent: TargetDirectory>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "Common"
+19/04/25 23:34:10	Delay-loading FS libraries.
+19/04/25 23:34:10	Local::init(): Registering language with fwesinst.ENG, result <0>
+19/04/25 23:34:10	InstPlugin::remove_conflicts()
+19/04/25 23:34:10	InstPlugin::show_return_code(): Function PlugInRemoveConflicts() returned value: FSWSSAPI_OK
+19/04/25 23:34:11	GetSetting(): Reading key <FWESINST.DLL: Debug>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "1"
+19/04/25 23:34:11	InstPlugin::read_settings()
+19/04/25 23:34:11	GetSetting(): Reading key <F-Secure common: SetupLanguage>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "ENG"
+19/04/25 23:34:11	GetSetting(): Reading key <F-Secure common: DestinationPath>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "C:\Program Files (x86)\F-Secure"
+19/04/25 23:34:11	GetSetting(): Reading key <F-Secure common: ProductInformationIni>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "C:\Windows\TEMP\FsSetup\00000001\product.ini"
+19/04/25 23:34:11	GetSetting(): Reading key <FWESINST.DLL: InstallMode>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "1"
+19/04/25 23:34:11	GetSetting(): Reading key <FWESINST.DLL: DaemonServiceDisplayName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure Anti-Virus Firewall Daemon"
+19/04/25 23:34:11	GetSetting(): Reading key <FWESINST.DLL: ProductSectionName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure FWES"
+19/04/25 23:34:11	GetSetting(): Reading key <FWESINST.DLL: Silent>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "1"
+19/04/25 23:34:11	GetSetting(): Reading key <FWESINST.DLL: PreviousVersion>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value ""
+19/04/25 23:34:11	GetSetting(): Reading key <F-Secure FWES: ProductVersion>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "10.10"
+19/04/25 23:34:11	GetSetting(): Reading key <F-Secure FWES: ProductRegKey>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "FWES"
+19/04/25 23:34:11	GetSetting(): Reading key <F-Secure FWES: TargetDirectory>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "FWES"
+19/04/25 23:34:11	GetSetting(): Reading key <F-Secure common: ProductSectionName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure Management Agent"
+19/04/25 23:34:11	GetSetting(): Reading key <F-Secure Management Agent: TargetDirectory>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "Common"
+19/04/25 23:34:11	Delay-loading FS libraries.
+19/04/25 23:34:11	Local::init(): Registering language with fwesinst.ENG, result <0>
+19/04/25 23:34:11	InstPlugin::pre_install()
+19/04/25 23:34:11	InstPlugin::show_return_code(): Function PlugInPreInstall() returned value: FSWSSAPI_OK
+19/04/25 23:34:18	GetSetting(): Reading key <FWESINST.DLL: Debug>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "1"
+19/04/25 23:34:18	InstPlugin::read_settings()
+19/04/25 23:34:18	GetSetting(): Reading key <F-Secure common: SetupLanguage>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "ENG"
+19/04/25 23:34:18	GetSetting(): Reading key <F-Secure common: DestinationPath>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "C:\Program Files (x86)\F-Secure"
+19/04/25 23:34:18	GetSetting(): Reading key <F-Secure common: ProductInformationIni>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "C:\Windows\TEMP\FsSetup\00000001\product.ini"
+19/04/25 23:34:18	GetSetting(): Reading key <FWESINST.DLL: InstallMode>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "1"
+19/04/25 23:34:18	GetSetting(): Reading key <FWESINST.DLL: DaemonServiceDisplayName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure Anti-Virus Firewall Daemon"
+19/04/25 23:34:18	GetSetting(): Reading key <FWESINST.DLL: ProductSectionName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure FWES"
+19/04/25 23:34:18	GetSetting(): Reading key <FWESINST.DLL: Silent>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "1"
+19/04/25 23:34:18	GetSetting(): Reading key <FWESINST.DLL: PreviousVersion>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value ""
+19/04/25 23:34:18	GetSetting(): Reading key <F-Secure FWES: ProductVersion>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "10.10"
+19/04/25 23:34:18	GetSetting(): Reading key <F-Secure FWES: ProductRegKey>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "FWES"
+19/04/25 23:34:18	GetSetting(): Reading key <F-Secure FWES: TargetDirectory>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "FWES"
+19/04/25 23:34:18	GetSetting(): Reading key <F-Secure common: ProductSectionName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure Management Agent"
+19/04/25 23:34:18	GetSetting(): Reading key <F-Secure Management Agent: TargetDirectory>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "Common"
+19/04/25 23:34:18	Delay-loading FS libraries.
+19/04/25 23:34:18	Local::init(): Registering language with fwesinst.ENG, result <0>
+19/04/25 23:34:18	InstPlugin::install()
+19/04/25 23:34:18	InstPlugin::make_product_registry_settings(): Applying registry settings to HKEY_LOCAL_MACHINE\SOFTWARE\Data Fellows\F-Secure\FWES
+19/04/25 23:34:18	SetRegSZ(): HKEY_LOCAL_MACHINE\SOFTWARE\Data Fellows\F-Secure\FWES\\CurrentVersion|10.10
+19/04/25 23:34:18	SetRegSZ(): HKEY_LOCAL_MACHINE\SOFTWARE\Data Fellows\F-Secure\FWES\\CurrentVersionEx|10.10.103
+19/04/25 23:34:18	InstPlugin::install(): filter rules installed
+19/04/25 23:34:18	InstPlugin::install(): Installing policy file C:\Program Files (x86)\F-Secure\FWES\fsavfw.dpf to C:\Program Files (x86)\F-Secure\Common
+19/04/25 23:34:18	GetSetting(): Reading key <FWESINST.DLL: SkipDaemonInstall>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value ""
+19/04/25 23:34:18	Windows 10 detected
+
+19/04/25 23:34:18	InstallCatalogFile (C:\Program Files (x86)\F-Secure\FWES\Drivers\vista\fsdfw.cat, fsdfw.cat)
+19/04/25 23:34:18	Acquired CatAdmin context
+19/04/25 23:34:18	Added catalog
+19/04/25 23:34:18	Catalog info: wszCatalogFile=C:\Windows\system32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\fsdfw.cat
+19/04/25 23:34:18	Released CatAdmin context
+19/04/25 23:34:18	InstallCatalogFile success
+19/04/25 23:34:18	install_daemon(): Installing daemon service
+19/04/25 23:34:18	InstPlugin::make_registry_settings(): Applying registry settings <HKEY_LOCAL_MACHINE\SOFTWARE\Data Fellows\F-Secure\FWES>
+19/04/25 23:34:18	SetRegSZ(): HKEY_LOCAL_MACHINE\SOFTWARE\Data Fellows\F-Secure\FWES\\InstallationDirectory|C:\Program Files (x86)\F-Secure\FWES
+19/04/25 23:34:18	SetRegSZ(): HKEY_LOCAL_MACHINE\SOFTWARE\Data Fellows\F-Secure\FWES\\ProgramDirectory|C:\Program Files (x86)\F-Secure\FWES\Program
+19/04/25 23:34:18	set_setting(): Writing key <FSMAINST.DLL: ForceStartFsma>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, set value "1"
+19/04/25 23:34:18	Creating the logs directory "C:\ProgramData\F-Secure\Logs\FSFW".
+19/04/25 23:34:18	Setting policy value OID_FW_LOG_DIRECTORY.
+19/04/25 23:34:18	InstPlugin::show_return_code(): Function PlugInInstall() returned value: FSWSSAPI_OK
+19/04/25 23:34:33	GetSetting(): Reading key <FWESINST.DLL: Debug>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "1"
+19/04/25 23:34:33	InstPlugin::read_settings()
+19/04/25 23:34:33	GetSetting(): Reading key <F-Secure common: SetupLanguage>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "ENG"
+19/04/25 23:34:33	GetSetting(): Reading key <F-Secure common: DestinationPath>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "C:\Program Files (x86)\F-Secure"
+19/04/25 23:34:33	GetSetting(): Reading key <F-Secure common: ProductInformationIni>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "C:\Windows\TEMP\FsSetup\00000001\product.ini"
+19/04/25 23:34:33	GetSetting(): Reading key <FWESINST.DLL: InstallMode>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "1"
+19/04/25 23:34:33	GetSetting(): Reading key <FWESINST.DLL: DaemonServiceDisplayName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure Anti-Virus Firewall Daemon"
+19/04/25 23:34:33	GetSetting(): Reading key <FWESINST.DLL: ProductSectionName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure FWES"
+19/04/25 23:34:33	GetSetting(): Reading key <FWESINST.DLL: Silent>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "1"
+19/04/25 23:34:33	GetSetting(): Reading key <FWESINST.DLL: PreviousVersion>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value ""
+19/04/25 23:34:33	GetSetting(): Reading key <F-Secure FWES: ProductVersion>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "10.10"
+19/04/25 23:34:33	GetSetting(): Reading key <F-Secure FWES: ProductRegKey>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "FWES"
+19/04/25 23:34:33	GetSetting(): Reading key <F-Secure FWES: TargetDirectory>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "FWES"
+19/04/25 23:34:33	GetSetting(): Reading key <F-Secure common: ProductSectionName>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value "F-Secure Management Agent"
+19/04/25 23:34:33	GetSetting(): Reading key <F-Secure Management Agent: TargetDirectory>, file: C:\Windows\TEMP\FsSetup\00000001\product.ini, got value "Common"
+19/04/25 23:34:33	Delay-loading FS libraries.
+19/04/25 23:34:33	Local::init(): Registering language with fwesinst.ENG, result <0>
+19/04/25 23:34:33	InstPlugin::post_install()
+19/04/25 23:34:33	Product ID is 416
+19/04/25 23:34:33	WSC registration name is F-Secure Client Security 13.10
+19/04/25 23:34:33	WSC registration done
+19/04/25 23:34:33	InstPlugin::post_install(): setting policy value OID_FW_LANGUAGE = ENG.
+19/04/25 23:34:33	InstPlugin::post_install(): setting policy value OID_FW_MIBVERSION = 21.
+19/04/25 23:34:33	InstPlugin::post_install(): setting policy value OID_FW_INSTALLATIONDIR = FWES.
+19/04/25 23:34:33	InstPlugin::post_install(): setting policy value OID_FW_PRODUCT_NAME = F-Secure Anti-Virus Internet Shield.
+19/04/25 23:34:33	GetSetting(): Reading key <FWESINST.DLL: DFWSettings>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value ""
+19/04/25 23:34:33	is_arch_64bit(): 1
+19/04/25 23:34:34	is_arch_64bit(): 1
+19/04/25 23:34:34	is_arch_64bit(): 1
+19/04/25 23:34:34	is_arch_64bit(): 1
+19/04/25 23:34:34	is_arch_64bit(): 1
+19/04/25 23:34:34	InstPlugin::install(): application list installed
+19/04/25 23:34:34	InstPlugin::post_install(): AC boot-time default action = 0.
+19/04/25 23:34:34	UninstPlugin::clear_hotfix_table called
+19/04/25 23:34:34	GetSetting(): Reading key <FWESINST.DLL: SkipServiceStart>, file: C:\Windows\TEMP\FsSetup\00000001\prodsett.ini, got value ""
+19/04/25 23:34:34	InstPlugin::post_install(): setting drivermode to 1
+19/04/25 23:34:34	InstPlugin::post_install(): setting ndismode and tdimode to 1
+19/04/25 23:34:34	InstPlugin::start_service(). open SCM 0x0106A518, 0
+19/04/25 23:34:34	InstPlugin::start_service(). open service 0x0106A5B8, 0
+19/04/25 23:34:34	InstPlugin::start_service(). start service 1, 183, bAlreadyStarted=0
+19/04/25 23:34:34	InstPlugin::wait_for_service_startup(). Waiting for service "FSFW"
+19/04/25 23:34:34	InstPlugin::wait_for_service_startup().Service "FSFW" status poll success=1, status=4, errorcode=183
+19/04/25 23:34:34	InstPlugin::wait_for_service_startup().Service "FSFW" has been successfully started.
+19/04/25 23:34:34	InstPlugin::show_return_code(): Function PlugInPostInstall() returned value: FSWSSAPI_PROCEED_WO_REBOOT
+19/07/09 14:19:14	GetSetting(): Reading key <Custom: ProgramDir>, file: C:\Program Files (x86)\F-Secure\FWES\dfuninst.log, got value "C:\Program Files (x86)\F-Secure\FWES"
+19/07/09 14:19:14	GetSetting(): Reading key <Custom: SetupLanguage>, file: C:\Program Files (x86)\F-Secure\FWES\dfuninst.log, got value "ENG"
+19/07/09 14:19:14	GetSetting(): Reading key <Custom: ProductRegKey>, file: C:\Program Files (x86)\F-Secure\FWES\dfuninst.log, got value "FWES"
+19/07/09 14:19:14	Delay-loading FS libraries.
+19/07/09 14:19:14	Local::init(): Registering language with fwesinst.ENG, result <0>
+19/07/09 14:19:14	Un-installation plug-in version 10.10.103 Build 103.
+19/07/09 14:19:14	UninstPlugin::pre_uninstall()
+19/07/09 14:19:14	ProductPlugInPreUnInstall: ini_file is C:\Program Files (x86)\F-Secure\FWES\dfuninst.log
+19/07/09 14:19:14	UninstPlugin::show_return_code(): Function PreUnInstall() returned value: FSUNINST_SUCCESS
+19/07/09 14:19:14	GetSetting(): Reading key <Custom: Debug>, file: C:\Program Files (x86)\F-Secure\FWES\dfuninst.log, got value "1"
+19/07/09 14:19:14	GetSetting(): Reading key <Custom: ProgramDir>, file: C:\Program Files (x86)\F-Secure\FWES\dfuninst.log, got value "C:\Program Files (x86)\F-Secure\FWES"
+19/07/09 14:19:14	GetSetting(): Reading key <Custom: SetupLanguage>, file: C:\Program Files (x86)\F-Secure\FWES\dfuninst.log, got value "ENG"
+19/07/09 14:19:14	GetSetting(): Reading key <Custom: ProductRegKey>, file: C:\Program Files (x86)\F-Secure\FWES\dfuninst.log, got value "FWES"
+19/07/09 14:19:14	Delay-loading FS libraries.
+19/07/09 14:19:14	Local::init(): Registering language with fwesinst.ENG, result <0>
+19/07/09 14:19:14	UninstPlugin::uninstall()
+19/07/09 14:19:14	ProductPlugInUnInstall: ini_file is C:\Program Files (x86)\F-Secure\FWES\dfuninst.log
+19/07/09 14:19:14	ProductPlugInUnInstall(): removing drivers
+19/07/09 14:19:14	FSISU_OpenRollBackLog(), log = C:\Program Files (x86)\F-Secure\FWES\dfuninst.log
+19/07/09 14:19:14	ProductPlugInUnInstall(): drivers were installed
+19/07/09 14:19:14	Acquired CatAdmin context
+19/07/09 14:19:14	Catalog removed
+19/07/09 14:19:14	Released CatAdmin context
+19/07/09 14:19:14	RemoveDriver(): Done
+19/07/09 14:19:14	FSISU_PerformUnInstall(FSISU_UNINSTALL_SERVICE)
+19/07/09 14:19:15	FSISU_PerformUnInstall(FSISU_UNINSTALL_REGISTRY)
+19/07/09 14:19:15	FSISU_PerformUnInstall(FSISU_UNINSTALL_FILE)
+19/07/09 14:19:15	FSISU_PerformUnInstall(FSISU_UNINSTALL_SHORTCUT)
+19/07/09 14:19:15	FSISU_PerformUnInstall(FSISU_UNINSTALL_EVENT)
+19/07/09 14:19:15	WSC unregistration failed
+19/07/09 14:19:15	UninstPlugin::clear_hotfix_table called
+19/07/09 14:19:15	UninstPlugin::clear_hotfix_table(): Failed to read variable: -508.
+19/07/09 14:19:15	UninstPlugin::uninstall(): clear_hotfix_table failed.
+19/07/09 14:19:15	UninstPlugin::uninstall(): Silent uninstallation: FSMA is not to be started.
+19/07/09 14:19:15	ProductPlugInUnInstall: done
+19/07/09 14:19:15	UninstPlugin::show_return_code(): Function UnInstall() returned value: FSUNINST_SUCCESS
+19/07/09 14:19:15	GetSetting(): Reading key <Custom: Debug>, file: C:\Program Files (x86)\F-Secure\FWES\dfuninst.log, got value "1"
+19/07/09 14:19:15	GetSetting(): Reading key <Custom: ProgramDir>, file: C:\Program Files (x86)\F-Secure\FWES\dfuninst.log, got value "C:\Program Files (x86)\F-Secure\FWES"
+19/07/09 14:19:15	GetSetting(): Reading key <Custom: SetupLanguage>, file: C:\Program Files (x86)\F-Secure\FWES\dfuninst.log, got value "ENG"
+19/07/09 14:19:15	GetSetting(): Reading key <Custom: ProductRegKey>, file: C:\Program Files (x86)\F-Secure\FWES\dfuninst.log, got value "FWES"
+19/07/09 14:19:15	Delay-loading FS libraries.
+19/07/09 14:19:15	Local::init(): Registering language with fwesinst.ENG, result <0>
+19/07/09 14:19:15	UninstPlugin::post_uninstall()
+19/07/09 14:19:15	ProductPlugInPostUnInstall: ini_file is C:\Program Files (x86)\F-Secure\FWES\dfuninst.log
+19/07/09 14:19:15	GetSetting(): Reading key <Custom: ProgramDir>, file: C:\Program Files (x86)\F-Secure\FWES\dfuninst.log, got value "C:\Program Files (x86)\F-Secure\FWES"
+19/07/09 14:19:15	GetSetting(): Reading key <Custom: LogDirectory>, file: C:\Program Files (x86)\F-Secure\FWES\dfuninst.log, got value "C:\Program Files (x86)\F-Secure\FWES\logs"
+19/07/09 14:19:15	PlugInPostUnInstall(): failed to delete action.log
+19/07/09 14:19:15	PlugInPostUnInstall(): failed to delete alert.log
+19/07/09 14:19:15	PlugInPostUnInstall(): failed to remove C:\Program Files (x86)\F-Secure\FWES\logs dir
+19/07/09 14:19:15	GetSetting(): Reading key <Custom: FSMACommonDir>, file: C:\Program Files (x86)\F-Secure\FWES\dfuninst.log, got value "C:\Program Files (x86)\F-Secure\Common"
+19/07/09 14:19:15	PlugInPostUnInstall(): old alertlog.0 not found
+19/07/09 14:19:15	UninstPlugin::post_uninstall(): failed to remove C:\Program Files (x86)\F-Secure\FWES\fwesinst.ENG file
+19/07/09 14:19:15	UninstPlugin::post_uninstall(): failed to remove C:\Program Files (x86)\F-Secure\FWES directory
+19/07/09 14:19:15	ProductPlugInPostUnInstall(): done
+19/07/09 14:19:15	UninstPlugin::show_return_code(): Function PostUnInstall() returned value: FSUNINST_SUCCESS
